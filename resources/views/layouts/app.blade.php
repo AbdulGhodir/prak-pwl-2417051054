@@ -8,7 +8,9 @@
 </head>
 <body class="flex flex-col min-h-screen">
     @include('components.navbar')
-    @yield('content')
+    <div class="flex-1 py-4">
+        @yield('content')
+    </div>
     @include('components.footer')
 </body>
 </html>
