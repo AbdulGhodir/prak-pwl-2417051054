@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-<div class="flex-1 bg-gray-100 p-8 flex items-center">
+<div class="flex-1 p-8 flex items-center">
     <div class="w-1/2 mx-auto bg-white rounded-xl shadow-md overflow-hidden">
         <div class="bg-gray-800 px-8 py-8 flex justify-between items-center">
             <h1 class="text-white text-xl font-semibold">Daftar Pengguna</h1>
