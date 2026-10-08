@@ -12,5 +12,9 @@
         @yield('content')
     </div>
     @include('components.footer')
+
+    @if (session('success'))
+        <script>alert("{{ session('success') }}");</script>
+    @endif
 </body>
 </html>
